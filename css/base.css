@@ -10,20 +10,8 @@
 }
 
 #mainnav {
-  background-color: #C2C895 ;
-  height: 40px ;
-}
-
-#mainnav li {
-  float: left;
-  height: 25px;
-  background-color: #CCC;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  text-align: center;
-  border-left: thin solid black;
-  border-right: thin solid black;
-  line-height: 25px;
+	background-color: #60668B;
+	height: 35px
 }
 
 #sidebar {
@@ -53,7 +41,7 @@ p, h1, h2, h3 {
 #innerwrap {
 /*	background-image: url(https://www.gstatic.com/webp/gallery3/1.png);*/
 	background-repeat: repeat-x;
-	height: 50em;
+/*	height: 50em;*/
 }
 
 #innerwrap:after {
@@ -64,14 +52,12 @@ p, h1, h2, h3 {
 	visibility: hidden;
 }
 
-#mainnav {
-	background-color: #60668B;
-	height: 35px
-}
+
 
 #innerwrap:hover {
 	background-color: yellow;
 }
+
 
 #mainnav li {
 	float: left;
@@ -140,4 +126,13 @@ nav ul li a {
 nav ul li a:hover {
 	background-color: #29336B;
 	color: #F8F068;
+}
+
+#siteinfo {
+	clear: both;
+	background-image: url();
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 118px;
+	padding-top: 10px;
 }
