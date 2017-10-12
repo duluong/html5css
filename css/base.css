@@ -22,6 +22,18 @@
   line-height: 1.5em;
 }
 
+#sidebar-11 {
+  float: left;
+  width: 300px;
+  background-color: #CCC;
+/*  padding: 0px 20px;*/
+  line-height: 1.5em;
+  border: 40px solid blue;
+  border-radius: 24px / 48px 0px;
+  border-image: url(images/border_05.jpg) 33%;
+
+}
+
 #main {
   float: right;
   width: 600px;
@@ -135,4 +147,11 @@ nav ul li a:hover {
 	width: 960px;
 	height: 118px;
 	padding-top: 10px;
+}
+
+.body-11 {
+	background-image: url(images/background_01.png), url(images/background_02.png) ;
+	background-position: top right, top left;
+	background-repeat: no-repeat;
+	background-size: 80px 40px;
 }
